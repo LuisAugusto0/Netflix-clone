@@ -9,6 +9,8 @@
     box-sizing: border-box
 }
 
+/* elementos principais */
+
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
@@ -36,4 +38,45 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;    
+}
+
+main .filme-principal .container{
+    color: whitesmoke;
+    margin: 10px;
+}
+
+/* filmes */
+.filme-principal{
+    font-size: 18px;
+    background:  url(./../img/House\ of\ cards.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-principal .house-logo img{
+    height: 80px;
+    margin-left: 20px;
+}
+
+main .filme-principal .botoes{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+main .filme-principal button {
+    margin: 5px;
+}
+
+.Titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
 }
