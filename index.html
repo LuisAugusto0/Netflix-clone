@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix (clone)</title>
     <link rel="stylesheet" href="./style/style.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
 </head>
 <body>
-    <script src="https://kit.fontawesome.com/489d3079e8.js" crossorigin="anonymous"></script>
-
-
     <header>
         <div class="container">
             <h2 class="logo">NETFLIX</h2>
@@ -25,30 +27,310 @@
 
     <main>
         <div class="filme-principal">
-            <div class="house-logo">
-                <img src="/img/House-logo.png" alt="House of cards">
-            </div>
             <div class="container">
+                <div class="house-logo">
+                    <img src="/img/House-logo.png" alt="House of cards">
+                </div>
                 <h3 class="Titulo">House of Cards</h3>
+
                 <p class="descricao">Com Frank fora da jogada, Claire 
                     Underwood pode exercer todo o seu poder como a 
                     primeira presidente mulher dos Estados Unidos. 
-                    Mas poderosos inimigos estão à espreita.</p>
-            </div>
-            <div class="botoes"> 
-                 <button role="button" class="botao">
-                    <i class="fas fa-play"></i> 
-                    Assistir agora
-                 </button>
-                 <button role="button" class="botao">
-                    <i class="fas fa-info-circle"></i>
-                     Mais informações
-                </button>
-            </div>
+                    Mas poderosos inimigos estão à espreita.
+                </p>
+            
+                <div class="botoes"> 
+                      <button role="button" class="botao">
+                         <i class="fas fa-play"></i> 
+                         Assistir agora
+                      </button>
+
+                      <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                             Mais informações
+                      </button>
+
+                 </div>
+           </div>
         </div>
     </main>
 
+    <div class="carrosel-filmes">
+        <div class="acao-e-aventura">
+                <p class="categorias">Ação e aventura</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/1.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/2.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/3.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/4.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/série-1.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/5.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/6.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/7.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/série-2.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/8.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/9.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/10.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/11.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/série-3.jpg" alt="banner-filme">
+                    </div>
+                    <div class="item">
+                        <img class="img" src="./img/ação e aventura/12.jpg" alt="banner-filme">
+                    </div>
+                </div>
+        </div>
+        
+        <div class="drama">
+            <p class="categorias">Drama</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/Dramas/2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/4.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/5.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/6.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/7.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/8.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/9.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <div class="comedia">
+            <p class="categorias">Comédia</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/comédia/1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/4.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/5.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/6.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/7.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/8.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/9.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/série 1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/comédia/10.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <div class="terror">
+            <p class="categorias">Terror</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/terror/1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/4.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/5.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/6.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/7.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/8.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/9.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/terror/10.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <div class="filmes-alto-astral">
+            <p class="categorias">Filmes alto-astral</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/filmes alto-astral/1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/4.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/5.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/6.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/7.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/8.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/9.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/filmes alto-astral/10.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <div class="documentarios">
+            <p class="categorias">Documentários</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/Documentários/1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/4.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/5.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/6.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/7.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/8.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/9.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Documentários/10.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+
+        <div class="series">
+            <p class="categorias">Séries</p>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="./img/comédia/série 1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/ação e aventura/série-1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/ação e aventura/série-2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/ação e aventura/série-3.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-1.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-2.jpg" alt="banner">
+                </div>
+                <div class="item">
+                    <img src="./img/Dramas/série-3.jpg" alt="banner">
+                </div>
+            </div>
+        </div>
+        
+    </div>
     
 
+
+
+    <script src="https://kit.fontawesome.com/489d3079e8.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/start-owl.js"></script>
 </body>
 </html>
