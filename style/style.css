@@ -49,8 +49,10 @@ main .filme-principal .container{
 .filme-principal{
     font-size: 18px;
     background:  url(./../img/House\ of\ cards.jpg);
+    background-position: center;
+   
 
-    height: 400px;
+    height: 600px;
     background-size: cover;
 
     display: flex;
@@ -60,7 +62,7 @@ main .filme-principal .container{
 }
 
 main .filme-principal .house-logo img{
-    height: 80px;
+    width: 40%;
     margin-left: 20px;
 }
 
@@ -78,5 +80,28 @@ main .filme-principal button {
 
 .Titulo {
     font-size: 35px;
+    margin-top: 10%;
     margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao i{
+    margin-right: 6px;
+}
+.botao:hover{
+    background-color: whitesmoke;
+    color: var(--preto);
 }
